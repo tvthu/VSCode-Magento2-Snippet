@@ -1,0 +1,18 @@
+{
+    "Log M2": {
+        "prefix": "m2.log.objectmanager",
+        "body": [
+            "\\Magento\\Framework\\App\\ObjectManager::getInstance()->get(\\Psr\\Log\\LoggerInterface::class)->debug(__FILE__ .':' . __LINE__);",
+            "\\Magento\\Framework\\App\\ObjectManager::getInstance()->get(\\Psr\\Log\\LoggerInterface::class)->debug(json_encode(${1:context}));"
+        ],
+        "description": "Magento 2 write log with ObjectManager"
+    },
+    "Log M2 File": {
+        "prefix": "m2.log.putcontent",
+        "body": [
+            "file_put_contents('${WORKSPACE_FOLDER}/var/log/custom.log', __FILE__ .':' . __LINE__ . PHP_EOL, FILE_APPEND);",
+            "file_put_contents('${WORKSPACE_FOLDER}/var/log/custom.log', ${1:context} . PHP_EOL, FILE_APPEND);"
+        ],
+        "description": "Magento 2 write log with File content"
+    }
+}
