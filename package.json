@@ -2,7 +2,7 @@
   "name": "vscode-cm-magento2-snippet",
   "displayName": "vscode-cm-magento2-snippet",
   "description": "Some snippets for Magneto2 developers",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "tvthu",
   "icon": "images/icon.png",
   "bugs": {
@@ -14,7 +14,7 @@
       "url": "https://github.com/tvthu/vscode-cm-magento2-snippet.git"
   },
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.15.0"
   },
   "categories": [
     "Snippets"
