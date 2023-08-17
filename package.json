@@ -2,7 +2,7 @@
   "name": "vscode-cm-magento2-snippet",
   "displayName": "vscode-cm-magento2-snippet",
   "description": "Some snippets for Magneto2 developers",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "tvthu",
   "icon": "images/icon.png",
   "bugs": {
@@ -24,6 +24,10 @@
       {
         "language": "php",
         "path": "./snippets/log/log.code-snippets"
+      },
+      {
+        "language": "xml",
+        "path": "./snippets/modules/module.code-snippets"
       }
     ]
   }

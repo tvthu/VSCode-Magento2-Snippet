@@ -21,6 +21,7 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 
 **Output:**
 ```php
+\Magento\Framework\App\ObjectManager::getInstance()->get(\Psr\Log\LoggerInterface::class)->debug(__FILE__ .':' . __LINE__);
 \Magento\Framework\App\ObjectManager::getInstance()->get(\Psr\Log\LoggerInterface::class)->debug(json_encode(context));
 ```
 
@@ -31,5 +32,17 @@ A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 
 **Output:**
 ```php
+file_put_contents('var/log/custom.log', __FILE__ .':' . __LINE__ . PHP_EOL, FILE_APPEND);
 file_put_contents('var/log/custom.log', context . PHP_EOL, FILE_APPEND);
+```
+
+### Module
+
+**Trigger:** `m2.module.sequence`
+
+**Output:**
+```xml
+<sequence>
+  <module name="Vendor_Module" />
+</sequence>
 ```

@@ -1,0 +1,11 @@
+{
+    "Module M2 sequence": {
+        "prefix": "m2.module.sequence",
+        "body": [
+            "<sequence>",
+			"\t<module name=\"${1:Vendor_Module}\" />",
+            "</sequence>"
+        ],
+        "description": "Magento 2 module.xml sequence"
+    }
+}
