@@ -1,5 +1,11 @@
 A nice start to a collection of Magento 2 code snippets for Visual Studio Code!
 
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/tvthu.vscode-cm-magento2-snippet)
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/tvthu.vscode-cm-magento2-snippet)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/tvthu.vscode-cm-magento2-snippet)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/tvthu.vscode-cm-magento2-snippet)
+![Visual Studio Marketplace Rating (Stars)](https://img.shields.io/visual-studio-marketplace/stars/tvthu.vscode-cm-magento2-snippet)
+
 ## Table of Contents
 
 ### Logs
